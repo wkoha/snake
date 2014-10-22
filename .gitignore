@@ -7,7 +7,8 @@
 /CodingDojo/snake.log
 /CodingDojo/*.log
 /CodingDojo/saves/*.game
-
+*.log
+*.db
 /CodingDojo/snake-servers/java/.idea
 /CodingDojo/snake-servers/java/target
 /CodingDojo/snake-servers/java/*.iml

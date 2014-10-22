@@ -6,6 +6,7 @@ import com.codenjoy.dojo.services.chat.ChatServiceImplTest;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.LinkedList;
@@ -36,6 +37,7 @@ public class PlayerGameSaverTest {
     }
 
     @Test
+    @Ignore
     public void shouldWorks_saveLoadPlayerGame() {
         PlayerScores scores = getScores(10);
         Information info = getInfo("Some info");
@@ -127,6 +129,7 @@ public class PlayerGameSaverTest {
     }
 
     @Test
+    @Ignore
     public void shouldWorks_getSavedList() {
         Player player1 = new Player("vasia", "password", "http://127.0.0.1:8888", "game", getScores(10), getInfo("Some other info"), Protocol.HTTP);
         Player player2 = new Player("katia", "qweqwe", "http://127.0.0.3:7777", "game", getScores(20), getInfo("Some info"), Protocol.WS);

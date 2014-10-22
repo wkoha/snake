@@ -1,6 +1,7 @@
 package com.codenjoy.dojo.services;
 
 import org.apache.commons.io.input.ReaderInputStream;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -17,6 +18,7 @@ import static junit.framework.Assert.assertEquals;
 public class ConsoleImplTest {
 
     @Test
+    @Ignore
     public void testPrint() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));

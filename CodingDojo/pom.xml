@@ -6,6 +6,7 @@
 
     <groupId>com.codenjoy</groupId>
     <artifactId>coding-dojo</artifactId>
+    <packaging>war</packaging>
     <version>1.0</version>
 
     <properties>
